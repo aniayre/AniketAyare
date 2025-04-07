@@ -9,7 +9,7 @@ const Main_navbar = `<nav class="navbar navbar-expand-lg navbar-dark container-f
             <div class="collapse navbar-collapse  " id="navbarNav">
                 <ul class="navbar-nav ms-auto py-1 p-3">
                     <li class="nav-item">
-                        <a class="nav-link slide-hover active" aria-current="page" href="index.html">Home1</a>
+                        <a class="nav-link slide-hover active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link slide-hover " href="about.html">About</a>
