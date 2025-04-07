@@ -1,0 +1,321 @@
+/* scroll-top-btn */
+
+
+
+
+header{
+    height: 100px;
+    padding: 15px 0px;
+}
+
+.hedim{
+    margin-top: 5px;
+}
+
+.row>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.row>a:hover {
+    text-decoration: none;
+    color: #fb6d26;
+}
+/* .hedhit>h6,.hedhit>a>h6, */
+.head-txt {
+    margin-top: 25px;
+    font-size: 12px;
+    /* padding-top: 15px; */
+}
+
+.smmar{
+    margin-top: -15px;
+}
+
+/* .marg1 {
+    margin-top: 25px;
+} */
+
+/* .cent1 {
+    text-align: center;
+} */
+
+/* navbar */
+.affix {
+    top: 0px;
+    width: 100%;
+    z-index: 9999 !important;
+  } 
+
+.pos-ab {
+    position: absolute;
+    top: 20px;
+}
+
+.pos-abb{
+    position: absolute;
+    top: -30px;
+}
+
+.dropbla{
+    color: #ffffff;
+    background-color: #202026;
+}
+.marr{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* li:hover{
+    color: #fb6d26;
+    background-color: #fb6d26;
+} */
+
+/* .row>a>h5{
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+.org {
+    color: #ff6114;
+}
+
+.righ1 {
+    text-align: right;
+}
+
+li {
+    color: white;
+}
+
+#sldim {
+    /* height: 700px; */
+    width:100vw;
+}
+
+.imgslid1 {
+    width: 200px;
+    height: 200px;
+}
+
+.mbmri {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.mbmri1{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.centered {
+    color: #ff6114;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-left>h3 {
+    text-shadow: 2px 2px 5px #ffffff
+        /* text-shadow: white; */
+}
+
+.top-left {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.marbot {
+    margin-bottom: 30px;
+}
+
+.oncb {
+    padding: 20px;
+    color: #fb6d26;
+    background-color: aliceblue;
+}
+/* payment & delivery */
+.abcd{
+    padding: 20px 0px;
+    margin: 0px 8vw;
+}
+
+.iconsiz{
+    padding-top: 15px;
+    width: 35px;
+}
+
+.flx{
+    padding-left: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+/* top product */
+
+.mb-45{
+    margin-top: 50px;
+}
+/* ???? */
+hr {
+    margin: 20px auto;
+    border: 0;
+    width: 80px;
+    border-top: 1px solid #34343b;
+  }
+
+.mut{  
+    text-decoration: none;
+    color: rgb(147, 144, 144);
+
+}
+
+.mut:hover{
+    text-decoration: none;
+    color: #fb6d26;
+}
+
+.colblit{
+    color: #544842;
+}
+
+/* section */
+.secbgi{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: #ffffff;
+    background-image: url('Images/photo-bg.avif');
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* owl-Carasole */
+.owl-nav, .owl-dots{
+    display: none;
+}
+
+/* first-carasole */
+
+/* .complc{ */
+    /* padding-left: 75px; */
+/* } */
+
+/* second-carasole */
+
+.paddinnr{
+    margin: 0px;
+    padding: 0px;
+}
+
+.SecOwlCars {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .conthold:hover .SecOwlCars {
+    opacity: 0.3;
+  }
+  
+  .conthold:hover .middle {
+    opacity: 1;
+  }
+  
+
+
+/* footer css */
+
+.frtlik{
+    padding: 75px 0px;
+}
+
+a>i{
+    padding-right: 15px;
+}
+
+.ftrmp{
+    padding: 25px 0px;
+    background-color: #202026;
+    color: aliceblue;
+}
+
+.fffg{
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/870-800.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.ftrhed{
+    margin: 25px 0px;
+}
+
+.ftrlink{
+    text-decoration: none;
+    color: slategray;
+}
+
+.ftrlink:hover{
+    text-decoration: none;
+    color: slategray;
+}
+
+.padding .ftrlink{   
+    position: relative;
+    display:inline-flex;
+    flex-direction: row;
+    /* padding: 10px 20px; */
+    /* width: 60%; */
+    cursor: pointer;
+    
+}
+.padding .ftrlink::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+}
+.padding .ftrlink:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, transform-origin 0s;
+}
+
+.ftri>a{
+    text-decoration: none;
+    color: #202026;
+}
+.ftri>a:hover{
+    text-decoration: none;
+    color: #fb6d26;
+}

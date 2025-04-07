@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .parallax {
+            background-image: url('Images/photo-bg.avif');
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 550px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti laudantium sint libero quae impedit assumenda possimus omnis debitis odio doloribus voluptatum, veritatis amet? Dolores quam eos dolorum quae culpa.</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti laudantium sint libero quae impedit assumenda possimus omnis debitis odio doloribus voluptatum, veritatis amet? Dolores quam eos dolorum quae culpa.</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti laudantium sint libero quae impedit assumenda possimus omnis debitis odio doloribus voluptatum, veritatis amet? Dolores quam eos dolorum quae culpa.</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti laudantium sint libero quae impedit assumenda possimus omnis debitis odio doloribus voluptatum, veritatis amet? Dolores quam eos dolorum quae culpa.</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti laudantium sint libero quae impedit assumenda possimus omnis debitis odio doloribus voluptatum, veritatis amet? Dolores quam eos dolorum quae culpa.</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti laudantium sint libero quae impedit assumenda possimus omnis debitis odio doloribus voluptatum, veritatis amet? Dolores quam eos dolorum quae culpa.</h1>
+    <div class="parallax flex items-center justify-center" id="parallax">
+        <div class="text-center">
+            <h1 class="text-white text-3xl md:text-5xl font-bold mb-4">
+                We have all your web, phone and computer repair needs covered. We can help you with Mac, PC, equipment setup, data recovery, security and more!
+            </h1>
+            <button class="bg-white text-black font-semibold py-2 px-4 rounded">
+                SHOP NOW
+            </button>
+        </div>
+    </div>
+    <div class="h-screen bg-gray-800 flex items-center justify-center">
+        <p class="text-white text-2xl">Scroll down to see the parallax effect</p>
+    </div>
+    <script>
+        window.addEventListener('scroll', function() {
+            const parallax = document.getElementById('parallax');
+            let offset = window.pageYOffset;
+            parallax.style.backgroundPositionY = offset * 0.7 + 'px';
+        });
+    </script>
+</body>
+</html>

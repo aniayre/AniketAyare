@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-image: url('bg image/blurred_darkened_image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+button {
+    background-color: #333333;
+    /* Lighter Gray */
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color:#555555;
+    /* Even Lighter Gray */
+}
+
+a {
+    color: #aaa;
+    /* Lighter Gray for Links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+/* card */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    transition: transform 0.4s ease;
+}
+
+.card:hover img {
+    transform: scale(0.89);
+}
+
+.custom-card {
+    border: 2px solid  gray; /* Green border */
+    border-radius: 10px;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.custom-card:hover {
+    border-color: white; /* Keep the same border color */
+    box-shadow: 0 0 15px 4px whitesmoke; /* Green glow effect */
+}
+
+
+/* navbar start */
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: rgb(32, 32, 32);
+}
+
+.nav-link {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: width 0.4s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Animation slide section start */
+.slide-down {
+    transform: translateY(-100%);
+    animation: slideDown 2s forwards;
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slide-up {
+    transform: translateY(100%);
+    animation: slideUp 2s forwards;
+}
+
+@keyframes slideUp {
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slide-left {
+    transform: translateX(-100%);
+    animation: slideLeft 2s forwards;
+}
+
+@keyframes slideLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-right {
+    transform: translateX(100%);
+    animation: slideRight 2s forwards;
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+.animate {
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.animate.visible {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+
+.left {
+    transform: translateX(-100px);
+}
+
+.right {
+    transform: translateX(100px);
+}
+
+.up {
+    transform: translateY(-100px);
+}
+
+.down {
+    transform: translateY(100px);
+}
+
+/* Animation slide section end */
+
+
+/* About page */
+.flip-card {
+    width: 250px;
+    height: 150px;
+    perspective: 1000px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+
+.hobby-card {
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.hobby-card:hover {
+    border-color: #ff5733;
+    box-shadow: 0 0 15px rgba(255, 87, 51, 0.8);
+    transform: scale(1.05);
+}
+
+/* skill page  owl coursel*/
+.owl-carousel .item {
+    height: 300px;
+    /* background: #4a90e2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.owl-item img {
+    transition: transform 0.3s ease-in-out;
+}
+.owl-item:hover img, .overlay {
+    transform: scale(0.95);
+}
+.owl-nav{
+    display: none;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Hidden by default */
+  z-index: 1000;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* footer */
+.list-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.list-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: width 0.4s ease;
+}
+
+.list-item:hover::after {
+    width: 100%;
+}

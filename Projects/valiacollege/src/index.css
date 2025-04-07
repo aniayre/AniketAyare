@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navc {
+  height: 50px;
+  width: 220px;
+  max-width: 220px;
+}
+
+.navbar .container-md .nav-item .nav-link{
+  color:#e65202;
+
+}
+
+#drpd:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu{
+  border-top: 4px solid #000d78;
+}
+
+/* Home Page Css */
+
+.bh_text h4{
+  color:#000d78;
+}
+
+/* admission btn */
+.bh_text button{
+  color: White;
+  font-size: 20px;
+  border: none;
+  background-color: #e65202;
+  /* background-color: #000645; */
+  /* transition: all 300ms ease 0ms; */
+  /* transition-property: all !important; */
+}
+
+/* .blink101{
+  animation-name: bfl;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bfi {
+  0%{
+    background-color: #e65202;
+  }
+  50%{
+    background-color: #000d78;
+  }
+  100%{
+    background-color: #e65202;
+  }
+  
+} */
+
+/* Bootstrap Carasol */
+.bootcaras{
+ background-color: #e65202;
+}
+
+/* paralex Effect */
+.bh_bgimg {
+  /* margin-top: 50px; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('https://valiacollege.co.in/wp-content/uploads/2021/06/b8.jpg');
+  
+  /* color: #ffffff; */
+  /* height: 713.2px;
+  position: absolute;
+  transform: translate(0px, 147.994px);
+  background-position: top;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  display: block; */
+}
+
+.text_over_img {
+  text-align:justify;
+  background-color: rgba(249, 249, 249, 0.74);
+}
+
+.text_over_img h3{
+  color: #e65202;
+}
+
+.text_over_img p {
+  color: black;
+}
+
+/* OUR VISION */
+.o_vision h1{
+  color: #e65202;
+}
+
+.o_vision p{
+  color: gray;
+}
+
+.o_vision ul{
+  text-align: justify;
+}
+
+.ov_btn{
+  color: #e65202;
+  font-size: 25px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid #e65202;
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+  transition: color 300ms ease 0ms, background-color 300ms ease 0ms;
+}
+
+.ov_btn:hover{
+  color: white;
+  background-color: #e65202;
+}
+
+.notice_carousel{
+  height: 415px;
+  /* padding: 15px; */
+  color: white;
+  background-color: #363F6E;
+  border-radius: 20px;
+}
+
+.o_vision h4{
+  color:white;
+}
+
+.notice_carousel p{
+  color: #E09900;
+}
+
+
+/* Carousel */
+/* .SecOwlCars{
+
+} */
+
+.owl-dots button {
+  margin: 0 -4px;
+ }
+
+ /* .owl-dot{
+  color: cadetblue;
+ } */
+
+
+ /* Message From The President */
+ .Message_From_President{
+  background-color:#000d78;
+ }
+
+
+
+
+
+
+
+
+
+/* Contact US Page Css */
+.conus {
+  margin: 30px 0;
+  padding: 70px 0;
+  text-align: left;
+  letter-spacing: 1px;
+  background-size: initial;
+  background-repeat: repeat;
+  background-image: linear-gradient(137deg, rgba(0, 0, 0, 0) 55%, #15045f 55%), url(https://valiacollege.co.in/wp-content/uploads/2024/03/print-shop_dots-pattern-1.png) !important;
+}
+
+.inbg {
+  border: 0;
+  background-color: #f7f7f7;
+}
+
+.cupht {
+  font-size: 72px;
+  color: #000645 !important;
+}
+
+.consubh {
+  color: #e65202;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+/* .conbtndv{
+  
+} */
+
+.subbtn {
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 75px;
+  margin-bottom: 25px;
+  background-color: #e65202;
+}
+
+.bhmar {
+  color: white;
+  text-align: left;
+  background-color: #15045f;
+}
+
+.bhmar h3 {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bhmar h5 {
+  font-size: small;
+  font-weight: 700;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #e65202;
+}
+
+.bhmar p {
+  font-size: large;
+  font-weight: 500;
+}

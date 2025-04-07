@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Card Border Glow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        .custom-card {
+            border: 2px solid #28a745;
+            /* Green border */
+            border-radius: 10px;
+            transition: box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .custom-card:hover {
+            border-color: #28a745;
+            /* Keep the same border color */
+            box-shadow: 0 0 15px 4px rgba(40, 167, 69, 0.7);
+            /* Green glow effect */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card custom-card p-3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Glowing Border Card</h5>
+                        <p class="card-text">Hover over this card to see a green glow effect.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Education</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card mb-4 p-3 border-start border-4 border-primary shadow-sm">
+                    <h5 class="fw-bold">Bachelor's in Computer Science</h5>
+                    <p class="text-muted">XYZ University | 2018 - 2022</p>
+                    <p>Specialized in Web Development and Data Science. Completed multiple projects in Python and
+                        JavaScript.</p>
+                </div>
+
+                <div class="card mb-4 p-3 border-start border-4 border-success shadow-sm">
+                    <h5 class="fw-bold">High School Diploma</h5>
+                    <p class="text-muted">ABC School | 2016 - 2018</p>
+                    <p>Excelled in Mathematics and Computer Science. Participated in coding competitions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Education</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="timeline">
+                    <div class="timeline-item d-flex align-items-start mb-4">
+                        <i class="bi bi-mortarboard-fill text-primary fs-3 me-3"></i>
+                        <div>
+                            <h5 class="fw-bold">Bachelor's in Computer Science</h5>
+                            <p class="text-muted">XYZ University | 2018 - 2022</p>
+                            <p>Focused on web development, AI, and databases.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item d-flex align-items-start mb-4">
+                        <i class="bi bi-book-fill text-success fs-3 me-3"></i>
+                        <div>
+                            <h5 class="fw-bold">High School Diploma</h5>
+                            <p class="text-muted">ABC School | 2016 - 2018</p>
+                            <p>Excelled in computer science and mathematics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Education</h2>
+        <div class="position-relative mx-auto" style="max-width: 600px;">
+            <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-primary" style="width: 100%;"></div>
+            </div>
+
+            <div class="position-absolute start-0 translate-middle text-center ">
+                <i class="bi bi-mortarboard-fill text-primary fs-3"></i>
+                <p class="small mt-2">High School (2016-2018)</p>
+            </div>
+
+            <div class="position-absolute start-50 translate-middle text-center">
+                <i class="bi bi-book-half text-success fs-3"></i>
+                <p class="small mt-2">Bachelor's (2018-2022)</p>
+            </div>
+
+            <div class="position-absolute start-100 translate-middle text-center">
+                <i class="bi bi-award text-danger fs-3"></i>
+                <p class="small mt-2">Masters (Ongoing)</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Education</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div
+                            class="flip-card-front bg-danger text-white p-4 d-flex align-items-center justify-content-center timeline-item d-flex align-items-start mb-4">
+                            <i class="bi bi-mortarboard-fill text-primary fs-3 me-3"></i>
+                            <h5>Bachelor's in CS</h5>
+                        </div>
+                        <div class="flip-card-back bg-white p-4 border">
+                            <p class="text-muted">XYZ University | 2018 - 2022</p>
+                            <p>Focused on software engineering and AI.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div
+                            class="flip-card-front bg-danger text-white p-4 d-flex align-items-center justify-content-center timeline-item d-flex align-items-start mb-4">
+                            <i class="bi bi-book-fill text-success fs-3 me-3"></i>
+                            <h5>Bachelor's in CS</h5>
+                        </div>
+                        <div class="flip-card-back bg-white p-4 border">
+                            <p class="text-muted">XYZ University | 2018 - 2022</p>
+                            <p>Focused on software engineering and AI.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </section>
+
+    <style>
+        .flip-card {
+            width: 250px;
+            height: 150px;
+            perspective: 1000px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+        .flip-card-back {
+            transform: rotateY(180deg);
+        }
+    </style>
+
+
+    <!-- Skills Grid -->
+    <div class="skills-container">
+        <!-- Frontend Skills -->
+        <div class="skill-card" data-category="frontend">
+            <h4>HTML</h4>
+            <p>Proficient in structuring web pages using semantic HTML.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 90%;">90%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" data-category="frontend">
+            <h4>CSS</h4>
+            <p>Capable of creating responsive and visually appealing UI.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 85%;">85%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" data-category="frontend">
+            <h4>JavaScript</h4>
+            <p>Understanding of DOM manipulation and client-side scripting.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" data-category="frontend">
+            <h4>Bootstrap</h4>
+            <p>Experience in building mobile-first designs with Bootstrap.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 85%;">85%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" data-category="frontend">
+            <h4>React.js</h4>
+            <p>Familiar with React components, props, and state management.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="skill-card" data-category="backend">
+            <h4>Python</h4>
+            <p>Basic knowledge of Python for web development and automation.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 65%;">65%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" data-category="backend">
+            <h4>MySQL</h4>
+            <p>Understanding of database management, queries, and relationships.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+        <!-- Other skills  -->
+        <div class="skill-card" data-category="Other">
+            <h4>Leadership</h4>
+            <p>Ability to lead teams and manage projects effectively.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 85%;">85%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" data-category="Other">
+            <h4>Public Speaking</h4>
+            <p>Comfortable in addressing an audience with clarity and confidence.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+        <div class="skill-card" data-category="Other">
+            <h4>Creativity</h4>
+            <p>Innovative mindset for problem-solving and content creation.</p>
+            <div id="progress1" class="progress">
+                <div id="progress-bar1" class="progress-bar" style="width: 90%;">90%</div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
